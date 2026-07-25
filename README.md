@@ -85,13 +85,15 @@ Simple Harmonic Motion/
 
 Solves the full nonlinear equation of motion using a 4th-order Runge–Kutta integrator:
 
-$$\ddot{\theta} + \gamma\dot{\theta} + \frac{g}{L}\sin\theta = 0$$
+$$
+\ddot{\theta} + \gamma\dot{\theta} + \frac{g}{L}\sin\theta = 0
+$$
 
 - Compares undamped vs. multiple damping coefficients simultaneously
-- Nonlinear period correction via elliptic integral:
-  $$
-  T = T_0 \cdot \frac{2}{\pi}\, K\!\left(\sin^2\!\frac{\theta_0}{2}\right)
-  $$
+- Nonlinear period correction via elliptic integral
+    $$
+    T = T_0 \cdot \frac{2}{\pi}\, K\!\left(\sin^2\!\frac{\theta_0}{2}\right)
+    $$
 - Live display of angular position, velocity, and phase-space portrait
 
 ---
@@ -120,7 +122,7 @@ $$m\ddot{x} + c\dot{x} + kx = F_0\cos(\omega t)$$
 | At resonance | $\omega_{res}$ |
 | Super-resonant | 1.5 $\omega_{res}$ |
 
-Resonance frequency: $\omega_{res} = \omega_n \sqrt{1 − 2\zeta^2}$, valid only for $\zeta < 1/\sqrt{2}$.
+Resonance frequency, $\omega_{res} = \omega_n \sqrt{1 − 2\zeta^2}$, valid only for $\zeta < 1/\sqrt{2}$.
 
 ---
 
@@ -130,7 +132,7 @@ Resonance frequency: $\omega_{res} = \omega_n \sqrt{1 − 2\zeta^2}$, valid only
 |---|---|
 | `rk4_mass_spring_damper` | RK4 solver for the mass–spring–damper ODE |
 | `rk4_damped_pendulum` | RK4 solver for the nonlinear pendulum |
-| `analyze_system_properties` | Computes ω_n, ζ, damping type, ω_d |
+| `analyze_system_properties` | Computes $\omega_n$, $\zeta$, damping type, $\omega_d$ |
 | `calculate_nonlinear_period` | Exact period via complete elliptic integral |
 | `PALETTE` | Shared dark-theme colour constants |
 
