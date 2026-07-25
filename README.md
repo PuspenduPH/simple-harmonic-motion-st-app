@@ -32,7 +32,9 @@ A premium, dark-themed **Streamlit** web application for interactively exploring
 Multiple damping levels (undamped, underdamped, critically damped) animated simultaneously.  
 Plots show angular position, angular velocity and phase-space trajectory.
 
-> 📁 Sample animation: [`outputs/pendulum.mp4`](outputs/pendulum.mp4)
+> 📁 Sample animation:
+    
+https://github.com/user-attachments/assets/4a8dbbc4-4ef1-41b4-a2b4-d11cbc8fa3ca
 
 ---
 
@@ -41,7 +43,9 @@ Plots show angular position, angular velocity and phase-space trajectory.
 Up to four spring-mass systems with individually configurable damping coefficients.  
 Visualises position-time, phase space, and total mechanical energy.
 
-> 📁 Sample animation: [`outputs/mass_spring.mp4`](outputs/mass_spring.mp4)
+> 📁 Sample animation:
+
+https://github.com/user-attachments/assets/d607170d-3786-49e4-9a6b-20f9c3508f88
 
 ---
 
@@ -50,7 +54,10 @@ Visualises position-time, phase space, and total mechanical energy.
 Sinusoidally forced mass–spring system at sub-resonant, resonant, and super-resonant driving frequencies.  
 Demonstrates amplitude amplification and the resonance peak.
 
-> 📁 Sample animation: [`outputs/ms_resonance.mp4`](outputs/ms_resonance.mp4)
+> 📁 Sample animation:
+
+
+https://github.com/user-attachments/assets/e12d7fa4-1fca-4e06-baaa-c3d52d515d9f
 
 ---
 
@@ -91,9 +98,11 @@ $$
 
 - Compares undamped vs. multiple damping coefficients simultaneously
 - Nonlinear period correction via elliptic integral
+  
 $$
-T = T_0 \cdot \frac{2}{\pi}\, K\left(\sin^2\frac{\theta_0}{2}\right)
+T = T_0 \cdot \frac{2}{\pi} K\left(\sin^2\frac{\theta_0}{2}\right)
 $$
+
 - Live display of angular position, velocity, and phase-space portrait
 
 ---
@@ -122,7 +131,9 @@ $$m\ddot{x} + c\dot{x} + kx = F_0\cos(\omega t)$$
 | At resonance | $\omega_{res}$ |
 | Super-resonant | 1.5 $\omega_{res}$ |
 
-Resonance frequency, $\omega_{res} = \omega_{n} \sqrt{1 − 2\zeta^2}$, valid only for $\zeta < 1/\sqrt{2}$.
+
+Resonance frequency, $\omega_{res} = \omega_{n} \sqrt{1 − 2\zeta^2}$ , valid only for $\zeta < 1/\sqrt{2}$.
+
 
 ---
 
