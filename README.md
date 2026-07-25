@@ -91,9 +91,9 @@ $$
 
 - Compares undamped vs. multiple damping coefficients simultaneously
 - Nonlinear period correction via elliptic integral
-    $$
-    T = T_0 \cdot \frac{2}{\pi}\, K\!\left(\sin^2\!\frac{\theta_0}{2}\right)
-    $$
+$$
+T = T_0 \cdot \frac{2}{\pi}\, K\left(\sin^2\frac{\theta_0}{2}\right)
+$$
 - Live display of angular position, velocity, and phase-space portrait
 
 ---
@@ -122,7 +122,7 @@ $$m\ddot{x} + c\dot{x} + kx = F_0\cos(\omega t)$$
 | At resonance | $\omega_{res}$ |
 | Super-resonant | 1.5 $\omega_{res}$ |
 
-Resonance frequency, $\omega_{res} = \omega_n \sqrt{1 − 2\zeta^2}$, valid only for $\zeta < 1/\sqrt{2}$.
+Resonance frequency, $\omega_{res} = \omega_{n} \sqrt{1 − 2\zeta^2}$, valid only for $\zeta < 1/\sqrt{2}$.
 
 ---
 
