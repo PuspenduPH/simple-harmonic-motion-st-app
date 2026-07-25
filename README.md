@@ -89,7 +89,9 @@ $$\ddot{\theta} + \gamma\dot{\theta} + \frac{g}{L}\sin\theta = 0$$
 
 - Compares undamped vs. multiple damping coefficients simultaneously
 - Nonlinear period correction via elliptic integral:
-  $$T = T_0 \cdot \frac{2}{\pi}\, K\!\left(\sin^2\!\frac{\theta_0}{2}\right)$$
+  $$
+  T = T_0 \cdot \frac{2}{\pi}\, K\!\left(\sin^2\!\frac{\theta_0}{2}\right)
+  $$
 - Live display of angular position, velocity, and phase-space portrait
 
 ---
@@ -101,7 +103,7 @@ Solves the standard damped free oscillation ODE:
 $$m\ddot{x} + c\dot{x} + kx = 0$$
 
 - Supports up to 4 simultaneous damping cases (undamped, underdamped, critically damped, overdamped)
-- Auto-detects and labels damping regime using ζ = c / (2√mk)
+- Auto-detects and labels damping regime using $\zeta = c / (2\sqrt{mk})$
 - Plots position vs. time, phase space (v vs. x), and total mechanical energy
 
 ---
@@ -114,11 +116,11 @@ $$m\ddot{x} + c\dot{x} + kx = F_0\cos(\omega t)$$
 
 | Driving case | Frequency |
 |---|---|
-| Sub-resonant | 0.5 ω_res |
-| At resonance | ω_res |
-| Super-resonant | 1.5 ω_res |
+| Sub-resonant | 0.5 $\omega_{res}$ |
+| At resonance | $\omega_{res}$ |
+| Super-resonant | 1.5 $\omega_{res}$ |
 
-Resonance frequency: ω_res = ω_n √(1 − 2ζ²), valid only for ζ < 1/√2.
+Resonance frequency: $\omega_{res} = \omega_n \sqrt{1 − 2\zeta^2}$, valid only for $\zeta < 1/\sqrt{2}$.
 
 ---
 
