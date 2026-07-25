@@ -1,12 +1,15 @@
-﻿# ⏳ Simple Harmonic Motion — Interactive Physics Demonstration
+# ⏳ Simple Harmonic Motion — Interactive Physics Demonstration
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35%2B-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://simple-harmonic-motion-st-app-5r5akf8xdy8wkvxbodwji4.streamlit.app/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8%2B-11557c)](https://matplotlib.org/)
 [![SciPy](https://img.shields.io/badge/SciPy-1.12%2B-8CAAE6)](https://scipy.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 A premium, dark-themed **Streamlit** web application for interactively exploring the three canonical simple harmonic motion systems. Each simulation is rendered as a smooth, browser-native animation with live-updating plots, computed physics properties, and full export capability.
+
+> 🌐 **Live Demo:** Explore the web app in your browser at [simple-harmonic-motion-st-app.streamlit.app](https://simple-harmonic-motion-st-app-5r5akf8xdy8wkvxbodwji4.streamlit.app/)
 
 ---
 
