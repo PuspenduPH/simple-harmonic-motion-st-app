@@ -341,7 +341,6 @@ def styled_preset_button(
 
 
 def common_controls() -> dict[str, Any]:
-    _set_default("common_time", 20.0)
     _set_default("common_fps", 30)
     with st.sidebar.expander("\u2699\ufe0f Common Settings", expanded=True):
         c1, c2 = st.columns(2)
@@ -355,6 +354,7 @@ def common_controls() -> dict[str, Any]:
                 key="common_g",
                 help="Gravitational acceleration in m/s\u00b2.",
             )
+        with c2:
             fps = st.slider(
                 "FPS",
                 min_value=10,
@@ -362,16 +362,7 @@ def common_controls() -> dict[str, Any]:
                 key="common_fps",
                 help="Animation frames per second; higher values increase HTML size.",
             )
-        with c2:
-            sim_time = st.slider(
-                "Simulation time (s)",
-                min_value=5.0,
-                max_value=90.0,
-                step=1.0,
-                key="common_time",
-                help="Total simulated time in seconds.",
-            )
-    return {"g": g, "fps": fps, "simulation_time": sim_time}
+    return {"g": g, "fps": fps}
 
 
 def sidebar_controls() -> dict[str, dict[str, Any]]:
